@@ -20,8 +20,8 @@ To write a program to perform selection sort and insertion sort using python pro
 ## Program:
 i)	#Selection Sort
 ```
-Developed by:RAMYA P
-RegisterNumber:23006111 
+Developed by:Sanjai S
+RegisterNumber:23003393
 '''
 def selection_sort(nums):
     n=len(arr)
@@ -39,8 +39,8 @@ print(selection_sort(arr))
 ```
 ii)	#Insertion Sort
 ```
-Developed by:RAMYA P
-RegisterNumber:23006111
+Developed by:Sanjai S
+RegisterNumber:23003393
 '''
 def insertion_sort(arr):
     for i in range(1,len(arr)):
