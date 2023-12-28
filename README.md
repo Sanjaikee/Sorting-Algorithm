@@ -20,46 +20,52 @@ To write a program to perform selection sort and insertion sort using python pro
 ## Program:
 i)	#Selection Sort
 ```
-Program to sort the elements in the list using the Selection Sort algorithm.
-Developed by:sanjai s
-RegisterNumber:23003393
+Developed by:RAMYA P
+RegisterNumber:23006111 
 '''
 def selection_sort(nums):
-    for i in range(len(nums)):
-        lowest_value_index=i
-        for j in range(i+1, len(nums)):
-            if nums[j]<nums[lowest_value_index]:
-                lowest_value_index=j
-        nums[i], nums[lowest_value_index] = nums[lowest_value_index], nums[i]
-list_of_nums=eval(input())
-selection_sort(list_of_nums)
-print(list_of_nums)
-        
+    n=len(arr)
+    for i in range(n-1):
+        index=i
+        for j in range(i+1,n):
+            if arr[j]<arr[index]:
+                index=j
+        arr[i],arr[index]=arr[index],arr[i]
+    return arr
+
+
+arr= eval(input())
+print(selection_sort(arr))
 ```
 ii)	#Insertion Sort
 ```
-Program to sort the elements in the list using the Insertion Sort algorithm.
-Developed by:sanjai s
-RegisterNumber:23003393
+Developed by:RAMYA P
+RegisterNumber:23006111
 '''
-def insertion_sort(nums):
-    for i in range(1, len(nums)):
-        item_to_insert = nums[i]
-        j = i-1
-        while j >=0 and nums[j] > item_to_insert:
-            nums[j+1] = nums[j]
-            j -= 1
-        nums[j+1] = item_to_insert
+def insertion_sort(arr):
+    for i in range(1,len(arr)):
+        a=arr[i]
+        j=i-1
+        
+        while j>=0 and a<arr[j]:
+            arr[j+1]=arr[j]
+            j-=1
+        arr[j+1]=a
+    return arr
     
     
-list_of_nums = eval(input())
-insertion_sort(list_of_nums)
-print(list_of_nums)
-
+    
+arr= eval(input())
+print(insertion_sort(arr))
 ```
+  
+
 ## Output:
-![output](/selection.png)
-![output](/insert.png)
+![image](https://github.com/23006111/Sorting-Algorithm/assets/145981696/154404a9-bbe8-4212-9e34-86b6525bee7b)
+![image](https://github.com/23006111/Sorting-Algorithm/assets/145981696/c7469143-7df7-4c69-9d11-b37fd953af8b)
+
+
+
 
 ## Result:
 Thus the program is written to perform selection sort and insertion sort using python programming.
