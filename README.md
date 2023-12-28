@@ -61,8 +61,8 @@ print(insertion_sort(arr))
   
 
 ## Output:
-![image](https://github.com/23006111/Sorting-Algorithm/assets/145981696/154404a9-bbe8-4212-9e34-86b6525bee7b)
-![image](https://github.com/23006111/Sorting-Algorithm/assets/145981696/c7469143-7df7-4c69-9d11-b37fd953af8b)
+![Screenshot 2023-12-28 162024](https://github.com/Sanjaikee/Sorting-Algorithm/assets/150231888/a9391275-de7c-4176-915a-60ee643f849a)
+![Screenshot 2023-12-28 162042](https://github.com/Sanjaikee/Sorting-Algorithm/assets/150231888/d0c8d4cd-ba5d-4024-8370-7df57d42953a)
 
 
 
